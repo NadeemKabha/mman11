@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 int count_bits(unsigned long int num);
 int main()
 {
