@@ -10,7 +10,7 @@ int main()
         printf("file can't be read\n");
         return 1;
     }
-    while (fscanf(file, "%d", &num) == 1)
+    while (fscanf(file, "%lu", &num) == 1)
     {
         if ((mycnt = count_bits(num)) == -1)
         {
