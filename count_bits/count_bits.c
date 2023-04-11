@@ -4,31 +4,18 @@ int main()
 {
     unsigned long int num;
     int mycnt = 0;
-    FILE *file = fopen("input", "r");
-    if (!file) 
+    while (num != -1)
     {
-        printf("file can't be read\n");
-        return 1;
-    }
-    while (fscanf(file, "%lu", &num) == 1)
-    {
+        printf("Please enter a binary number (-1 to exit): ");
+        scanf("%lu", &num);
         if ((mycnt = count_bits(num)) == -1)
         {
-            printf("Bad input!");
+            printf("Bad input!\n");
             return 1;
         }
-        mycnt = count_bits(num);
-        printf("%d\n", mycnt);
-    }
-    // printf("Please enter a binary number: ");
-    // scanf("%lu", &num);
-    // if ((mycnt = count_bits(num)) == -1)
-    // {
-    //     printf("Bad input!");
-    //     return 1;
-    // }
 
-    // printf("Count is %d\n", mycnt);
+        printf("Count is %d\n", mycnt);
+    }
     return 0;
 }
 
