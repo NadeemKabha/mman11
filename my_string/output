@@ -1,0 +1,30 @@
+Please enter the strings (to seperate use space):
+my_strcmp(apple,apple): 0
+my_strncmp(apple,apple,3): 0
+my_strchr(apple,a): 0
+Please enter the strings (to seperate use space):
+my_strcmp(kkkbanana,cherry): 8
+my_strncmp(kkkbanana,cherry,3): 8
+my_strchr(kkkbanana,a): 4
+Please enter the strings (to seperate use space):
+my_strcmp(apple,orange): -14
+my_strncmp(apple,orange,3): -14
+my_strchr(apple,a): 0
+Please enter the strings (to seperate use space):
+my_strcmp(apple,banana): -1
+my_strncmp(apple,banana,3): -1
+my_strchr(apple,a): 0
+Please enter the strings (to seperate use space):
+my_strcmp(cherry,apple): 2
+my_strncmp(cherry,apple,3): 2
+my_strchr(cherry,a): -1
+Please enter the strings (to seperate use space):
+my_strcmp(orange,cat): 12
+my_strncmp(orange,cat,3): 12
+my_strchr(orange,a): 2
+Please enter the strings (to seperate use space):
+my_strcmp(admin,adjective): 3
+my_strncmp(admin,adjective,3): 3
+my_strchr(admin,a): 0
+Please enter the strings (to seperate use space):
+Done!
